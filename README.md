@@ -7,6 +7,7 @@
 	<li><strong>Clone or download repository</strong></li>
 	<li><strong>npm i</strong>: to install packages</li>
 	<li>In Shell or cmd start command: <strong>gulp</strong> to run app</li>
+	<li><strong>Working example see here: </strong> https://vldcher.github.io/ProgForce/index.html</li>
 
 </ul>
 
