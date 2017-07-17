@@ -6,7 +6,7 @@
 <ul>
 	<li><strong>Clone or download repository</strong></li>
 	<li><strong>npm i</strong>: to install packages</li>
-	<li>In Shell or cmd start command:<strong>gulp</strong>run app</li>
+	<li>In Shell or cmd start command: <strong>gulp</strong> to run app</li>
 
 </ul>
 
