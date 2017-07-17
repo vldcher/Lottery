@@ -1,0 +1,72 @@
+main
+	margin-top: 100px
+	background-color: #fff
+
+	.lottery
+		width: 100%
+		
+		&-header
+			.winner-field
+				padding: 5px
+				width: 100%
+				border: 1px solid black
+				margin: 10px 0px 10px 0px
+
+				.winner
+					padding: 5px 10px
+					border: 1px solid black
+					background-color: transparent
+					margin: 2px 0px
+					&:hover
+						background-color: green
+						transition: all .25s ease
+						color: #fff
+				.winnerStyle
+					border: 1px solid #d6e9c6
+					border-radius: 4px
+					color: #3c763d
+					background-color: #dff0d8
+					font-size: 16px
+
+		.registration
+			border: 1px solid black
+			padding: 10px
+			h1
+				text-align: center
+				margin-bottom: 10px
+			input
+				margin-bottom: 10px
+				&[type="email"]
+					margin-left: 3px
+				&[type="tel"]
+					margin-left: 6px
+				&[type="date"]
+					margin-left: -10px
+				&[type="submit"]
+					text-align: right
+			.surnameField
+				margin-left: -10px
+			.nameField
+				margin-left: 7px
+			span
+				margin-right: 15px
+				
+
+	table, th, td
+		border: 1px solid black
+		border-collapse: collapse
+		caption
+			text-align: center
+			font-size: 16px
+			margin-bottom: 10px
+			color: green
+			text-transform: uppercase
+
+	th, td
+		padding: 10px
+		text-align: left
+
+.error, .error-message
+	input
+		border: 1px solid red
+		color: red
